@@ -6,12 +6,14 @@ export const fetchData = createAsyncThunk('get', async () => {
     return response.data;
 })
 
+const initialState = {
+    news : [],
+    loading: false,
+}
+
 const newsSlice = createSlice({
     name: "news",
-    initialState : {
-        news : [],
-        loading : false
-    },
+    initialState,
     reducers: {},
     extraReducers: (builder) => {
         builder
