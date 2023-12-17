@@ -22,6 +22,9 @@ const News = () => {
  if (searchQuery) {
     filteredData = data.filter(article => article.title.toLowerCase().includes(searchQuery.toLowerCase()))
  }
+ if (filteredData) {
+  filteredData = filteredData.slice(0,12)
+ }
 
  if (loading) return <h1>Loading...</h1>
  if (error) return <h1>Error: {error.message}</h1>

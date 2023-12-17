@@ -12,36 +12,6 @@
   color: red;
 }
 
-.SearchBox {
-  margin: auto;
-  margin-top: 5%;
-  box-sizing: border-box;
-  width: 350px;
-  margin-bottom: 100px;
-}
-
-.SearchBox input {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 250px;
-  background: #f1f1f1;
-}
-
-.SearchBox Button {
-  float: left;
-  width: 70px;
-  padding: 10px;
-  background: red;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-  cursor: pointer;
-  border-radius: 0;
-}
-
 .des {
   color: gray;
   font-family: sans-serif;
@@ -77,6 +47,7 @@
 .red {
   color: red;
   margin: 150px;
+  margin-top: 50px;
   margin-bottom: 0;
 }
 
@@ -95,4 +66,38 @@
 
 .footer span {
   color: red;
+}
+
+.hr {
+  opacity: 10;
+  margin: 0;
+  padding: 3px;
+}
+
+.SearchBox form {
+  width: 400px;
+  height: 55px;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid gray;
+  margin: auto;
+}
+.SearchBox input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.SearchBox button {
+  background: red;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.icon {
+  align-self: center;
+  padding: 10px 20px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form, Button } from 'react-bootstrap'
+import { FaSearch } from "react-icons/fa";
 
 const SearchBox = ({searchNews}) => {
   const submitHandler = (e) => {
@@ -8,10 +8,13 @@ const SearchBox = ({searchNews}) => {
 
  return (
     <>
-        <Form className='SearchBox'>
-            <input type='text' placeholder='Search' onChange={e => searchNews(e.target.value)}/>
-            <Button type='submit' onClick={submitHandler}>Go</Button>
-        </Form>
+    <div className='SearchBox'>
+      <form>
+        <i className='icon'><FaSearch /></i>
+        <input type='text' placeholder='Search' onChange={e => searchNews(e.target.value)} />
+        <button type='submit' onClick={submitHandler}>Go</button>
+      </form>
+    </div>
     </>
  )
 }
