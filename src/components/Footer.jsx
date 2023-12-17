@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='footer'>
         <hr />
-        <p><strong>NewsAPI<span>●</span>Org</strong>is not responsible for the content of external sites</p>
+        <p><strong>News<span>●</span>Org</strong>is not responsible for the content of external sites</p>
     </div>
   )
 }
