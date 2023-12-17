@@ -1,0 +1,98 @@
+/* .App {
+  text-align: center;
+} */
+.title {
+  font-size: 100px;
+  font-family: 'Playfair';
+  font-weight: normal;
+  text-align: center;
+}
+
+.title span {
+  color: red;
+}
+
+.SearchBox {
+  margin: auto;
+  margin-top: 5%;
+  box-sizing: border-box;
+  width: 350px;
+  margin-bottom: 100px;
+}
+
+.SearchBox input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 250px;
+  background: #f1f1f1;
+}
+
+.SearchBox Button {
+  float: left;
+  width: 70px;
+  padding: 10px;
+  background: red;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.des {
+  color: gray;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-top: 20px;
+  height: 110px;
+  overflow:hidden;
+}
+
+.news-title {
+  font-family: serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.news {
+  width: 250px;
+  height: 400px;
+  margin: 50px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.news img {
+  width: 250px;
+  height: 150px;
+}
+
+.red {
+  color: red;
+  margin: 150px;
+  margin-bottom: 0;
+}
+
+.main a {
+  color: red;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer p {
+  padding: 50px;
+}
+
+.footer span {
+  color: red;
+}
