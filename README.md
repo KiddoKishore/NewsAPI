@@ -1,3 +1,15 @@
+𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 :
+
+NewsAPI Client is a web application  to access and display news articles from various sources using the NewsAPI. 
+The application is built using the React.js library for the frontend and Node.js with Express.js for the backend.
+
+𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀 :
+
+* Search for news articles based on keywords.
+* Filter the search results by source, sort order, and date.
+* View detailed information about each news article, including a link to the original article.
+* Responsive design for compatibility with different screen sizes and devices.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -62,6 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+
+
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
